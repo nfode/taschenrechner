@@ -21,8 +21,8 @@ public class Main {
             System.out.println(rechner.sub(ersteZahl, zweiteZahl));
         } else if (operant == "div") {
             System.out.println(rechner.div(ersteZahl, zweiteZahl));
-        } else if (operant == "multiplikation") {
-            System.out.println(rechner.div(zweiteZahl, ersteZahl));
+        } else if (operant == "mult") {
+            System.out.println(rechner.div(ersteZahl, zweiteZahl));
         } else {
             System.out.println("Bitte einen gültigen Operanden angeben!");
             return;
