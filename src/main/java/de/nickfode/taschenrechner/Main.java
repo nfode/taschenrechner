@@ -8,13 +8,14 @@ public class Main {
             System.out.println("Bitte Parameter eingeben!");
             return;
         }
+        
         String operant = args[0];
         
         int ersteZahl = Integer.parseInt(args[1]);
         int zweiteZahl = Integer.parseInt(args[2]);
+
         if(operant == "sub"){
             System.out.println(rechner.add(ersteZahl,zweiteZahl));
-
         } else if (operant == "add") {
             System.out.println(rechner.sub(ersteZahl,zweiteZahl));
         } else {
