@@ -17,6 +17,8 @@ public class Main {
 
         } else if (operant == "add") {
             System.out.println(rechner.sub(ersteZahl,zweiteZahl));
+        } else if (operant == "div") {
+            System.out.println(rechner.div(ersteZahl,zweiteZahl));
         } else {
             System.out.println("Bitte einen gültigen Operanden angeben!");
             return;
