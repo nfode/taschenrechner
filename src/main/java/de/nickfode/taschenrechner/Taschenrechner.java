@@ -1,4 +1,3 @@
-package de.nickfode.taschenrechner;
 public class Taschenrechner {
     public Taschenrechner(){
 
