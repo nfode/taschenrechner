@@ -1,3 +1,4 @@
+package de.nickfode.taschenrechner;
 public class Taschenrechner {
     public Taschenrechner(){
 
@@ -12,5 +13,9 @@ public class Taschenrechner {
     }
     public  int div (int num1, int num2){
         return num1 / num2;
+    }
+
+    public  int multiplikation (int num1, int num2){
+        return num1 * num2;
     }
 }

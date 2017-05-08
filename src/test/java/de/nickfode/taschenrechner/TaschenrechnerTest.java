@@ -35,4 +35,11 @@ public class TaschenrechnerTest {
         assertEquals(1, rechner.div(1, 1));
     }
 
+    @Test
+    public void testMul() {
+        assertEquals(10, rechner.multiplikation(5, 2));
+        assertEquals(6, rechner.multiplikation(3, 2));
+        assertEquals(1, rechner.multiplikation(1, 1));
+    }
+
 }
