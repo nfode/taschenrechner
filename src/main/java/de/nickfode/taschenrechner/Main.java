@@ -1,5 +1,4 @@
 package de.nickfode.taschenrechner;
-
 public class Main {
     public static void main(String[] args) {
         Taschenrechner rechner = new Taschenrechner();
