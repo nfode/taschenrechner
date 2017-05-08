@@ -16,7 +16,7 @@ public class TaschenrechnerTest {
     @Test
     public void testAdd() {
         assertEquals(5, rechner.add(2, 3));
-         assertEquals(2200, rechner.add(1100, 1100));
+        assertEquals(2200, rechner.add(1100, 1100));
         assertEquals(2, rechner.add(1, 1));
         assertEquals(-3, rechner.add(-5, 2));
     }
@@ -37,9 +37,9 @@ public class TaschenrechnerTest {
 
     @Test
     public void testMul() {
-        assertEquals(10, rechner.div(5, 2));
-        assertEquals(6, rechner.div(3, 2));
-        assertEquals(1, rechner.div(1, 1));
+        assertEquals(10, rechner.multiplikation(5, 2));
+        assertEquals(6, rechner.multiplikation(3, 2));
+        assertEquals(1, rechner.multiplikation(1, 1));
     }
 
 }
